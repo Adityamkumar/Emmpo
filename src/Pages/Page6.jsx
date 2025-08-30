@@ -38,7 +38,6 @@ const Page6 = () => {
           autoPlay
           loop
           muted
-          video
           src="/images/reel.mp4"
         ></video>
         <h3 className='text-center text-[2.2vw] font-["font1"] pb-4 text-[#7546ff] cursor-pointer'>

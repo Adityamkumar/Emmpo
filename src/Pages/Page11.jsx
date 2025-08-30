@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { motion } from "motion/react";
 const Page11 = () => {
   const page11Ref = useRef(null);

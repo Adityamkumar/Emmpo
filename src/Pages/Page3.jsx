@@ -1,11 +1,9 @@
-import gsap from 'gsap/all'
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef} from 'react'
 
 
 const Page3 = () => {
 
 const page3Ref = useRef(null)
-const [show, setShow] = useState(false)
 
 
 useEffect(()=>{
@@ -19,31 +17,7 @@ useEffect(()=>{
     })
 })
 
-// useEffect(()=>{
-//    const elem=document.querySelectorAll('.elem')
-//      elem.forEach((elem)=>{
-//          elem.addEventListener('click',()=>{
-//             setShow((prevShow)=>{
-//                 if(!prevShow){
-//                   gsap.to(elem.childNodes[1],{
-//                      scale:1,
-//                      duration:0.5,
-//                      ease:'power2.out',
-//                      display:'block'
-//                  })
-//                 }else{
-//                   gsap.to(elem.childNodes[1],{
-//                      scale:0,
-//                      duration:0.5,
-//                      ease:'power2.out',
-//                      display:'none'
-//                   })  
-//                   return !prevShow  
-//                 }
-//             })
-//          })
-//      })
-// })
+
 
   return (
     <div style={{backgroundImage:'url(/images/multi.png)'}}   ref={page3Ref} className=' mt-20 w-full h-[190vh] bg-center  bg-cover  object-contain'>

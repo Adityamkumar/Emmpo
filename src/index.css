@@ -11,17 +11,17 @@ body{
 
 @font-face {
     font-family:"font1";
-    src: url('../public/fonts/font1.woff') format("woff");
+    src: url('/fonts/font1.woff') format("woff");
 }
 @font-face {
     font-family:"font2";
-    src: url('../public/fonts/font2.woff') format("woff");
+    src: url('/fonts/font2.woff') format("woff");
 }
 @font-face {
     font-family:"font3";
-    src: url('../public/fonts/font3.woff') format("woff");
+    src: url('/fonts/font3.woff') format("woff");
 }
 @font-face {
     font-family:"font4";
-    src: url('../public/fonts/font4.woff') format("woff");
+    src: url('/fonts/font4.woff') format("woff");
 }

@@ -52,7 +52,7 @@ useEffect(()=>{
       <div className="back relative w-full h-full pointer-events-none">
         <img
           className="w-full h-full object-cover"
-          src="./public/images/homeImg.png"
+          src="/images/homeImg.png"
           alt=""
         />
       </div>

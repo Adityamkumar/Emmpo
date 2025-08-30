@@ -1,6 +1,6 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap/all'
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 
 const Navbar = () => {
 
@@ -21,8 +21,8 @@ useGSAP(()=>{
        <div><h3 className='font-semibold text-2xl text-[#416473]'>EMMPO</h3></div>
         <div>
           {
-            ["Why?","How?","What?","About us","Say Hello!"].map((item)=>(
-              <a href="#" className="text-[#416473] text-[13px] px-6 font-medium">{item}</a>  
+            ["Why?","How?","What?","About us","Say Hello!"].map((item,index)=>(
+              <a href="#" className="text-[#416473] text-[13px] px-6 font-medium" key={index}>{item}</a>  
             ))
           }
         </div>
